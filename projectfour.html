@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Home</title>
+  <title>Project 4</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="https://codehs.com/uploads/0ba4bb166ce663bcbabd8cc578a5d65b">
-<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" type="image/x-icon" href="https://codehs.com/uploads/0ba4bb166ce663bcbabd8cc578a5d65b"><link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
 </head>
@@ -24,18 +23,18 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand">Home</a><a href= "#footerindex" class = "navbar-brand">Scroll to bottom</a>
+      <a class="navbar-brand">Project 4</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-          <li class = "active"><a href="index.html">Home</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
+          <li ><a href="index.html">Home</a></li>
+        <li class = "active" class="dropdown">
+          <a class="dropdown-toggle active " data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
           <ul class="dropdown-menu">
-              <li><a href="projectone.html">Project 1 </a></li>
-           <li><a href="projecttwo.html"> Project 2</a></li>
+            <li ><a href="projectone.html">Project 1 </a></li>
+            <li><a href="projecttwo.html"> Project 2</a></li>
             <li><a href="projectthree.html">Project 3</a></li>
-             <li><a href="projectfour.html"> Project 4</a></li>
+             <li class = "active"><a href="projectfour.html"> Project 4</a></li>
             <li><a href="projectfive.html">Project 5</a></li>
           </ul>
         </li>
@@ -51,8 +50,9 @@
 
 
 <div class="small parallax"></div> 
-<div class="parallax"><h1 class = "Name text-center" id="welcome-message">Welcome to My Website</h1></div>
+<div class="parallax"><h1 class="Name text-center"> Project and Description coming soon!</h1></div>
 <div class="parallax"></div>
+
 
 
  <footer class="site-footer"> 
@@ -71,18 +71,6 @@
       <p class="footer-credit">&copy; 2026 Jayden. All rights reserved.</p> 
     </div> 
   </footer>
-<script>
-  const greeting = document.getElementById('welcome-message');
-  const hour = new Date().getHours();
-
-  if (hour < 12) {
-    greeting.textContent = "Good Morning! Welcome to My Website";
-  } else if (hour < 18) {
-    greeting.textContent = "Good Afternoon! Welcome to My Website";
-  } else {
-    greeting.textContent = "Good Evening! Welcome to My Website";
-  }
-</script>
 
 </body>
 </html>

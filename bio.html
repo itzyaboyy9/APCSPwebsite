@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Home</title>
+  <title>Bio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -24,34 +24,39 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand">Home</a><a href= "#footerindex" class = "navbar-brand">Scroll to bottom</a>
+      <a class="navbar-brand">Bio</a> <a href= "#footerbio" class = "navbar-brand">Scroll to bottom</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-          <li class = "active"><a href="index.html">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projects<span class="caret"></span></a>
           <ul class="dropdown-menu">
-              <li><a href="projectone.html">Project 1 </a></li>
+            <li><a href="projectone.html">Project 1 </a></li>
            <li><a href="projecttwo.html"> Project 2</a></li>
             <li><a href="projectthree.html">Project 3</a></li>
              <li><a href="projectfour.html"> Project 4</a></li>
             <li><a href="projectfive.html">Project 5</a></li>
           </ul>
         </li>
-        <li><a href="bio.html">Bio</a></li>
-      
+        <li class = "active"><a href="bio.html">Bio</a></li>
+        
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        
       </ul>
     </div>
   </div>
 </nav>
 
 
-<div class="small parallax"></div> 
-<div class="parallax"><h1 class = "Name text-center" id="welcome-message">Welcome to My Website</h1></div>
+<div class="small parallax"><h1 class="Name text-center"> I am an Egyptian/American student at Granda High School (GHS), and I am on the swim team, I play Fifa and love soccer, and I want to major in Oncology.</h1></div> 
+<div class="small parallax text-center"><h1 class="Name text-center"> <p>My favorite sites are, <a href="https://amazon.com"> Amazon</a>, to shop online, <a href="https://www.premierleague.com/en/">The Premier League</a>, to play fantasy and watch soccer, and <a href="https://www.instagram.com/">Instagram</a>, to watch reels and post with my friends. Here are a few images that represent me: </p> 
+</h1>   <div class="image-row">
+    <img class="img-responsive" src="https://codehs.com/uploads/ade4b38e72e5984163ecbbd2d6c1def6" alt="Soccer">
+    <img class="img-responsive" src="https://codehs.com/uploads/f5febe2b9be57e938f5d25d6a841b808" alt="Swim"> 
+    <img class="img-responsive apple" src="https://codehs.com/uploads/a7f3714b53ee6c8cfd25a071f7eec53b" alt="technology">
+  </div>
+</div>
 <div class="parallax"></div>
 
 
@@ -71,18 +76,6 @@
       <p class="footer-credit">&copy; 2026 Jayden. All rights reserved.</p> 
     </div> 
   </footer>
-<script>
-  const greeting = document.getElementById('welcome-message');
-  const hour = new Date().getHours();
-
-  if (hour < 12) {
-    greeting.textContent = "Good Morning! Welcome to My Website";
-  } else if (hour < 18) {
-    greeting.textContent = "Good Afternoon! Welcome to My Website";
-  } else {
-    greeting.textContent = "Good Evening! Welcome to My Website";
-  }
-</script>
 
 </body>
 </html>
